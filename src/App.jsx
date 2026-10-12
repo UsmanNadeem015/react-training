@@ -5,6 +5,7 @@ import viteLogo from './assets/vite.svg'
 import Home from './Pages/Home'
 import { BrowserRouter, Routes, Route } from "react-router";
 import Register from './Pages/Register'
+import Products from './Pages/Products'
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/Register" element={<Register />} />
+      <Route path="/Products" element={<Products />} />
     </Routes>
     </>
   )
